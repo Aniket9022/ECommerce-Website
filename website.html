@@ -1,0 +1,119 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My E-Commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#login">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="products">
+            <h1>Products</h1>
+            <div id="category">
+                <h3>Shoes</h3>
+                <div id="product">
+                    <img src="E:/ECommerce Website/images/air.jpeg" alt="AirJordans" width="300" height="200">
+                    <h4>Air Jordans 1 Low</h4>
+                    <h5>₹10,500</h5>
+                    <button>Buy Now</button>
+                <div id="product">
+                    <img src="E:/ECommerce Website/images/newbalance.jpg" alt="NewBalance" width="250" height="250">
+                    <h4>New Balance FuelCell v4</h4>
+                    <h5>₹11,700</h5>
+                    <button>Buy Now</button>
+                <div id="product">
+                    <img src="E:/ECommerce Website/images/converse.jpeg" alt="Converse" width="300" height="250">
+                    <h4>Converse Run Star Motion Canvas Platform Unisex Platform Low</h4>
+                    <h5>₹8,000</h5>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div id="category">
+                <h3>T-Shirts</h3>
+                <div id="product">
+                    <img src="E:/ECommerce Website/images/naruto.jpeg" alt="Naruto" width="230" height="300">
+                    <h4>Naruto LooseFit Tshirt</h4>
+                    <h5>₹899</h5>
+                    <button>Buy Now</button>
+                <div id="product">
+                    <img src="E:/ECommerce Website/images/itachi.jpeg" alt="Itachi" width="230" height="300">
+                    <h4>Itachi LooseFit Tshirt</h4>
+                    <h5>₹999</h5>
+                    <button>Buy Now</button>
+                <div id="product">
+                    <img src="E:/ECommerce Website/images/demon.jpeg" alt="DemonSlayer" width="230" height="300">
+                    <h4>Demon Slayer LooseFit Tshirt</h4>
+                    <h5>₹1100</h5>
+                    <button>Buy Now</button>
+            </div>
+        </section>
+        <div id="login" class="modal">
+            <form>
+                <h2>Login</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#register">Register here</a></p>
+            </form>
+        </div>
+
+        <div id="register" class="modal">
+            <form>
+                <h2>Register</h2>
+                <label for="new-username">Username:</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <label for="new-password">Password:</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>   
+        <div id="address-form" class="modal">
+            <form>
+                <h2>Address</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+                <label for="zip">ZIP Code:</label>
+                <input type="text" id="zip" name="zip" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        <div id="billing-form" class="modal">
+            <form>
+                <h2>Billing</h2>
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" required>
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="text" id="expiry-date" name="expiry-date" required>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>             
+    </main>    
+    <footer>
+        <p>&copy; 2024 Designed by Aniket</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

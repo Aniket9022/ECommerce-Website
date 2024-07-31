@@ -1,0 +1,8 @@
+Product Categories & Listings
+Organized products into various categories for easy navigation. Displayed multiple products per category with a user-friendly layout. User Accounts
+Added options for users to Login or Register to manage their accounts
+Checkout Process 
+Integrated a seamless Buy Now option. Included detailed Address and Billing forms for a smooth checkout experience
+Created an Order Placed page to confirm successful transactions
+Designed multiple informative pages: About Us, Contact Us, Offers, and Blogs. Google Sheets Integration Collected form data into separate Google Sheets for efficient data management
+I used modern web technologies like HTML5, CSS3, and JavaScript to ensure a responsive and engaging user experience.
